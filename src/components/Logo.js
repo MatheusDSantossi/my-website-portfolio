@@ -11,7 +11,7 @@ export const Logo = () => {
         <MotionLink href="/" className='w-16 h-16 bg-dark text-light 
         flex items-center justify-center rounded-full text-2xl font-bold'
         whileHover={{
-            backgroungColor: [
+            backgroundColor: [
                 "#1b1b1b",
                 "#f5f5f5",
                 "#B63E96", // 240,86,199
