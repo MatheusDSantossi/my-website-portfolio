@@ -2,7 +2,6 @@ import React from 'react'
 import { CircularText } from './icons'
 import Link from 'next/link'
 
-// https://youtu.be/Yw7yWHigGKI?t=4974
 
 export const HireMe = () => {
   return (
