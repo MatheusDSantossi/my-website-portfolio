@@ -5,6 +5,7 @@ import Layout from '../components/Layout'
 import Image from 'next/image'
 import profilePic from '../../public/images/profile/developer_with_beard_and_glasses_an_abstrac.jpg';
 import { useInView, useMotionValue, useSpring } from 'framer-motion'
+import { Skills } from '../components/Skills'
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null);
@@ -90,6 +91,7 @@ const about = () => {
                         </div>
                     </div>
                 </div>
+                <Skills></Skills>
             </Layout>
         </main>
     </>
