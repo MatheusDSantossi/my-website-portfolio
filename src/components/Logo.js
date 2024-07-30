@@ -19,6 +19,10 @@ export const Logo = () => {
             ],
             transition:{duration: 1, repeat: Infinity},
         }}
+        animate={{
+          backgroundColor: "#1b1b1b",
+          color: "#F5F5F5",
+        }}
         >
             MS
         </MotionLink>
