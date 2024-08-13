@@ -432,7 +432,7 @@ export const CircularText = ({ className, ...rest }) => (
     <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
     width="300.000000pt" height="300.000000pt" viewBox="0 0 300.000000 300.000000"
     preserveAspectRatio="xMidYMid meet"
-    className={`w-full h-auto ${className}`}
+    className={`w-full h-auto fill-current ${className}`}
     {...rest}
     >
    <metadata>
